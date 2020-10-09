@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin name="(aXen) Font Awesome 5 in IPS" version_long="515001" version_human="5.15.1" author="aXenDev" website="https://axendev.net/" update_check="http://axendev.net/myapps/plugins/fontawesome5/check.php"><hooks><hook type="S" class="\IPS\Theme\class_core_front_global" filename="aXenFontAwesome"><![CDATA[//<?php
+<plugin name="(aXen) Font Awesome 5 in IPS" version_long="515002" version_human="5.15.1.1" author="aXenDev" website="https://axendev.net/" update_check="http://axendev.net/myapps/plugins/fontawesome5/check.php"><hooks><hook type="S" class="\IPS\Theme\class_core_front_global" filename="aXenFontAwesome"><![CDATA[//<?php
 
 /* To prevent PHP errors (extending class does not exist) revealing path */
 if ( !\defined( '\IPS\SUITE_UNIQUE_KEY' ) )
@@ -362,6 +362,35 @@ if ( !\defined( '\IPS\SUITE_UNIQUE_KEY' ) )
  * 5.15.1 Upgrade Code
  */
 class ips_plugins_setup_upg_515001
+{
+	/**
+	 * ...
+	 *
+	 * @return	array	If returns TRUE, upgrader will proceed to next step. If it returns any other value, it will set this as the value of the 'extra' GET parameter and rerun this step (useful for loops)
+	 */
+	public function step1()
+	{
+		
+
+		return TRUE;
+	}
+	
+	// You can create as many additional methods (step2, step3, etc.) as is necessary.
+	// Each step will be executed in a new HTTP request
+}]]></version><version long="515002" human="5.15.1.1"><![CDATA[//<?php
+
+
+/* To prevent PHP errors (extending class does not exist) revealing path */
+if ( !\defined( '\IPS\SUITE_UNIQUE_KEY' ) )
+{
+	header( ( isset( $_SERVER['SERVER_PROTOCOL'] ) ? $_SERVER['SERVER_PROTOCOL'] : 'HTTP/1.0' ) . ' 403 Forbidden' );
+	exit;
+}
+
+/**
+ * 5.15.1.1 Upgrade Code
+ */
+class ips_plugins_setup_upg_515002
 {
 	/**
 	 * ...
