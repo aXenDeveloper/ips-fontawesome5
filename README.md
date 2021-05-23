@@ -7,7 +7,7 @@ Change Log => https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.
 
 ## 🏷️ Requirements
 
-- [IPS Community Suite: 4 version](https://invisioncommunity.com/)
+- [IPS Community Suite: 4.4, 4.5, 4.6 version](https://invisioncommunity.com/)
 
 ## 🧰 Install
 
