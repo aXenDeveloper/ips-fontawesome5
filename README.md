@@ -1,3 +1,5 @@
+![Header image](https://files.axendev.net/projects/ips/plugins/fontawesome5/1.png)
+
 # (aXen) Font Awesome 5 in IPS
 
 The plugin updates the Font Awesome version to version 5 without destroying the icons embedded in IPS version 4.
